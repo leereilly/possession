@@ -1,6 +1,6 @@
 # Posession
 
-Possessive apostrophes are hard. Especially if their for singular nouns ending in `s` or `ez`.
+Possessive apostrophes are hard. Especially if they're for singular nouns ending in `s` or `ez`.
 
 ```ruby
 "Chris".possession("AP", "Chris")
