@@ -1,17 +1,17 @@
 # Posession
 
-Possessive apostrophes are hard. Especially if their for singular nouns ending in s.
+Possessive apostrophes are hard. Especially if their for singular nouns ending in `s` or `ez`.
 
 ```ruby
-Posession::Parser::AP "Chris"
+"Chris".possession("AP", "Chris)
 # => "Chris'"
 
-Posession::Parser::Chicago "Chris"
+"Chris".possession("Chicago", "Chris)
 # => "Chris's"
 
-Posession::Parser::Oxford "Chris"
+"Chris".possession("Oxford", "Chris)
 # => "Chris's"
 
-Posession::Parser::Gollum "Chris"
+"Chris".possession("Gollum", "Chris)
 # => "Chrisses's"
 ```
