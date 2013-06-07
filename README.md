@@ -15,3 +15,5 @@ Possessive apostrophes are hard. Especially if they're for singular nouns ending
 "Chris".possession("Gollum", "Chris")
 # => "Chrisses's"
 ```
+
+![](http://i.imgur.com/KrxoMCw.png)
