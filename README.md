@@ -3,17 +3,22 @@
 Possessive apostrophes are hard. Especially if they're for singular nouns ending in `s` or `ez`.
 
 ```ruby
-"Chris".possession("AP", "Chris")
+"Chris".possessive(:ap)
 # => "Chris'"
 
-"Chris".possession("Chicago", "Chris")
+"Chris".possessive(:chicago)
 # => "Chris's"
 
-"Chris".possession("Oxford", "Chris")
+"Chris".possessive(:oxford)
 # => "Chris's"
 
-"Chris".possession("Gollum", "Chris")
+"Chris".possessive(:gollum)
 # => "Chrisses's"
 ```
 
 ![](http://i.imgur.com/KrxoMCw.png)
+
+## Resources
+
+* [Apostrophe-S vs. Apostrophe: Forming Possessives of Words Ending in S (or an S Sound)](http://www.apvschicago.com/2011/06/apostrophe-s-vs-apostrophe-forming.html
+* [Oxford Apostrophe](http://oxforddictionaries.com/words/apostrophe)
