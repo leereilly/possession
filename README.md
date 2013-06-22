@@ -14,11 +14,14 @@ Possessive apostrophes are hard. Especially if they're for singular nouns ending
 
 "Chris".possessive(:gollum)
 # => "Chrisses's"
+
+"Chris".possessive(:connery)
+# => "Chrisish"
 ```
 
 ![](http://i.imgur.com/KrxoMCw.png)
 
 ## Resources
 
-* [Apostrophe-S vs. Apostrophe: Forming Possessives of Words Ending in S (or an S Sound)](http://www.apvschicago.com/2011/06/apostrophe-s-vs-apostrophe-forming.html
+* [Apostrophe-S vs. Apostrophe: Forming Possessives of Words Ending in S](http://www.apvschicago.com/2011/06/apostrophe-s-vs-apostrophe-forming.html
 * [Oxford Apostrophe](http://oxforddictionaries.com/words/apostrophe)
