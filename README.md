@@ -3,7 +3,6 @@
 Possessive apostrophes are hard. Especially if they're for singular nouns ending in `s` or `ez`.
 
 ```ruby
-# Using AP Style
 "Chris".possessive(:ap)
 # => "Chris'"
 
