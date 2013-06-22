@@ -6,13 +6,13 @@ Possessive apostrophes are hard. Especially if they're for singular nouns ending
 "Chris".possessive(:ap)
 # => "Chris'"
 
-"Chris".possession(:chicago)
+"Chris".possessive(:chicago)
 # => "Chris's"
 
-"Chris".possession(:oxford)
+"Chris".possessive(:oxford)
 # => "Chris's"
 
-"Chris".possession(:gollum)
+"Chris".possessive(:gollum)
 # => "Chrisses's"
 ```
 
